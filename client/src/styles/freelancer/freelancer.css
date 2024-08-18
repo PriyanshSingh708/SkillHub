@@ -1,0 +1,150 @@
+.freelancer-home{
+
+
+}
+
+.freelancer-data-top{
+
+    position: relative;
+    left: 75vw;
+    width: fit-content;
+    margin: 20px;
+}
+
+.freelancer-data-top span{
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+}
+
+.freelancer-data-top span b{
+
+
+}
+
+.freelancer-data-top span p{
+    margin: 0;
+
+}
+
+.home-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.home-card{
+
+    width: 18%;
+    /* height: 25vh; */
+    padding: 3vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: rgba(231, 220, 215, 0.13);
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(196, 191, 189, 0.26);
+
+}
+
+.home-card h4{
+    font-size: 1.2rem;
+    color: #2b2a2a;
+    font-weight: 400;
+}
+
+.home-card p{
+    color: #636363;
+}
+
+.home-card button{
+
+    background-color: rgba(240, 248, 255, 0);
+    color: #ee4950;
+    border: 1.5px solid #ee4950;
+    font-size: 0.9rem;
+    padding: 8px 20px;
+    width: 85%;
+    border-radius: 0.4rem;
+}
+
+.home-card button:hover{
+
+    background-color: #ee4950;
+    color: #f1e3e4;
+    border: 1.5px solid #ee4950;
+
+}
+
+.freelancer-details{
+
+    margin-top: 5vh;
+    width: 60%;
+    min-height: 35vh;
+    margin-left: 5vw;
+    padding: 2vh 2vw 3vh 2vw;
+
+    background: rgba(231, 220, 215, 0.13);
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(196, 191, 189, 0.26);
+}
+
+.freelancer-details-data{
+
+    
+}
+
+.freelancer-details-data span{
+
+
+}
+
+.freelancer-details-data span{
+
+
+}
+
+.freelancer-details-data span h4{
+    margin-top: 2vh;
+    font-size: 1.2rem;
+}   
+
+.freelancer-details-data span p{
+    font-size: 0.8rem;
+}
+
+.freelancer-details-data .skills{
+    display: flex;
+    gap: 10px;
+}
+
+.freelancer-details-data .skill{
+    font-weight: 400;
+    font-size: 0.8rem;
+    border: 1px solid #ee4950;
+    color: #ee4950;
+    padding: 7px 12px;
+    border-radius: 1rem;
+}
+
+
+.freelancer-details-update h4{
+    margin-top: 2vh;
+    font-size: 1.2rem;
+}
+
+.freelancer-details-update input{
+
+}
+
+.freelancer-details-update textarea{
+    min-height: 16vh;
+}

@@ -1,0 +1,109 @@
+.AuthenticatePage{
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.auth-navbar h3{
+    
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    color: rgba(239, 154, 117, 0.916);
+}
+
+.auth-navbar p{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-left: 2vw;
+    color: rgba(137, 134, 132, 0.916);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.authForm{
+    margin-top: 15vh;
+    /* border: 1px solid #cb7c7c; */
+    padding: 20px;
+    width: 34%;
+    margin-left: 33%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    height: max-content;
+    font-family: 'Work Sans', sans-serif;
+
+    background-color: rgba(255, 255, 255, 0.263);
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 0.5rem;
+
+}
+.authForm h2{
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 79, 135);
+    font-size: 1.8rem;
+}
+.authFormInputs {
+    width: 100%;
+    height: 50px;
+}
+
+.authFormInputs label{
+    color: rgb(0, 61, 101);
+    /* padding: 0; */
+}
+.authFormInputs input{
+    color: rgb(0, 61, 101);
+    border: none;
+    outline: none;
+    background-color: rgba(231, 235, 235, 0);
+    border: 1px solid #9dc1d975;
+    /* padding: 0; */
+}
+.authForm select {
+    color: rgb(0, 61, 101);
+    border: none;
+    outline: none;
+    background-color: rgba(231, 235, 235, 0);
+    border: 1px solid #9dc1d975;
+    font-size: medium;
+    padding: 15px 10px;
+}
+.authFormInputs input #floatingInput .form-control{
+    padding: 0 !important;
+}
+
+.authForm button{
+    background-color: rgb(0, 108, 197);
+    font-weight: bold;
+    color: rgb(246, 251, 255);
+    height: 50px;
+}
+.authForm p{
+    margin-top: 5%;
+    color: black;
+}
+.authForm p span{
+    margin-top: 5%;
+    color: rgb(0, 68, 107);
+    cursor: pointer;
+}

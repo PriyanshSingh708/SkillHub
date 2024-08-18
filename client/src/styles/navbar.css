@@ -1,0 +1,33 @@
+.navbar{
+
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    /* background-color: #141414; */
+}
+
+.navbar h3{
+
+    color: #ee4950;
+    margin: 0;
+}
+
+.nav-options{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.nav-options p{
+    margin: 0;
+    color: rgb(137, 135, 135);
+    cursor: pointer;
+}
+
+.nav-options p:hover{
+
+    color: rgb(57, 57, 57);
+    font-weight: 500;
+}

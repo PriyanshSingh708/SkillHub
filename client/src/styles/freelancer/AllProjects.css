@@ -1,0 +1,131 @@
+.all-projects-page{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.project-filters{
+
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3vh 1.5vw;
+    height: 82vh;
+    border-radius: 0.7rem;
+    overflow-y: scroll;
+}
+
+.project-filters h3{
+    
+    font-size: 1.4rem;
+}
+
+.filters{
+
+    margin-top: 3vh;
+}
+
+.filters h5{
+    font-size: 1.1rem;
+}
+
+.filter-options{
+    font-size: 0.9rem;
+
+}
+
+
+.projects-list{
+
+    width: 75%;
+    height: 82vh;
+
+    overflow-y: scroll;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.7rem;
+    padding: 3vh 2vw;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projects-list hr{
+
+    color: rgb(95, 96, 97);
+}
+
+.projects-list h3{
+
+
+}
+
+.listed-project:hover{
+    background-color: #efefef58;
+    cursor: pointer;
+
+}
+
+.listed-project h5{
+    font-size: 0.9rem;
+
+}
+
+
+.listed-project p{
+
+    font-size: 0.9rem;
+}
+
+
+.listed-project-head{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.listed-project-head h3{
+    width: 80%;
+    margin: 0;
+    font-size: 1.4rem;
+    color: #227396b0;
+}
+
+.listed-project-head p{
+
+    margin: 0;
+}
+
+.listed-project .skills{
+
+    display: flex;
+    gap: 10px;
+}
+
+.listed-project .skills h6{
+
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #ee4950;
+    border: 1px solid #ee4950;
+    padding: 5px 10px;
+    border-radius: 1rem;
+}
+
+.listed-project .bids-data{
+
+    display: flex;
+    gap: 30px;
+    margin-top: 3vh;
+}
+
+.listed-project .bids-data p{
+
+    
+}
+
+.listed-project .bids-data h6{
+
+    
+}

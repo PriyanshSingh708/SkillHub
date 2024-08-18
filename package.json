@@ -1,0 +1,10 @@
+{
+  "name": "freelancing-app",
+  "version": "1.0.0",
+  "scripts": {
+    
+    "client": "npm start --prefix client",
+    "server": "npm run --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+}

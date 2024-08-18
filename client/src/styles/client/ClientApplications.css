@@ -1,0 +1,116 @@
+.client-applications-page{
+    padding: 2vh 2vw;
+
+}
+
+.client-applications-page span{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.client-applications-page span h3{
+
+
+}
+
+
+.client-applications-page span select{
+    width: 50%;
+
+}
+
+.client-applications-body{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 76vh;
+    border-radius: 0.7rem;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    overflow-y: scroll;
+}   
+.client-application{
+    padding: 2vh 2vw;
+}
+
+.client-application:hover{
+    background-color: rgba(12, 105, 148, 0.071);
+}
+
+.client-application-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-application hr{
+    height: 2px;
+    background-color: rgba(84, 86, 86, 0.377);
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.vertical-line{
+    width: 1px;
+    background-color: rgba(110, 109, 109, 0.233);
+    height: inherit;
+}
+
+.client-application-half{
+
+    width: 48%;
+}
+
+.client-application-half h4{
+    font-size: 1.2rem;
+    color: rgba(26, 83, 121, 0.646);
+}
+
+.client-application-half p{
+    font-size: 0.8rem;
+}
+
+.client-application-half span{
+    display: flex;
+    flex-direction: column;
+}
+
+.client-application-half span h5{
+    font-size: 1.1rem;
+    color: rgba(9, 55, 86, 0.877);
+}
+
+.client-application-half span p{
+
+}
+
+.client-application-half span .application-skills{
+    display: flex;
+    gap: 10px;
+}
+
+
+.client-application-half span .application-skills p{
+
+    color: #ee4950;
+    border: 1px solid #ee4950;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    font-size: 0.6rem;
+}
+
+.client-application-half h6{
+
+    font-size: 0.9rem;
+}
+
+.client-application-half h6 b{
+
+    color: rgb(103, 104, 103);
+}
+
+.approve-btns{
+    display: flex;
+    gap: 20px;
+}
+.approve-btns button{
+    width: 10vw;
+}

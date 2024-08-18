@@ -1,0 +1,43 @@
+.all-users-page{
+    padding: 4vh 2vw;
+
+}
+
+.all-users-page h3{
+
+
+}
+
+.all-users{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+.user{
+
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    border: 1px solid #ee460e5b;
+    padding: 2vh 1.5vw;
+    border-radius: 0.8rem;
+}
+
+.user span{
+
+
+}
+
+.user span b{
+    margin: 0;
+    font-weight: 500;
+    color: rgb(22, 129, 129);
+}
+
+.user span p{
+
+    margin: 0;
+    color: rgba(22, 95, 129, 0.728);
+}
